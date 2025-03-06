@@ -34,7 +34,7 @@ public class HomePageTest {
   public void test01_titleTest() {
 	  String pageTitle = driver.getTitle();
 	  System.out.println(pageTitle);
-	  Assert.assertEquals(pageTitle, "Pet Store");
+	  Assert.assertEquals(pageTitle, "3 Pet Store");
 	 
   }
 //  @Test
